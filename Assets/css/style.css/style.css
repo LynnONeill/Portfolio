@@ -1,12 +1,9 @@
-* {
+ /* Styling for all pages */
+ * {
     margin: 0px;
 }
-body{
-    padding: 0;
-    background-color: #ffffff;
-    Margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+
+/* Styling for header bar on all pages */
 .header{
     height: 60px;
     Width: 100%;
@@ -14,50 +11,46 @@ body{
     background-color: #ffffff;
     display: block;
 }
+
+/* Styling for my name on all pages */
 h1{
     height: 100%;
     width: 220px;
     line-height: 52px;
-    margin-left: 200px;
+    margin-left: 250px;
     float: left;
-    color: #ffffff;
     text-align: center; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
     background-color: #4aaaa5;
 }
-.links{
-    margin-right: 200px;
-    line-height: 52px;
-}
-a{
-    margin-right: 15px;
-    float: right;
-    background-color: #ffffff;
-    color: #777777;
-}
-.bio{
-    margin-top: 35px;
-    margin-left: 200px;
-    margin-right: 200px;
-    background-color: #ffffff;
-}
-.bio h2{
+
+/* Styling for h2 Header on all Pages: "About Me" "Contact" "Portfolio" Text */
+h2{
     height: 60px;
     margin-left: 15px;
+    line-height: 60px;
     border-bottom-style: solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     border-color: #777777;
     color: #4aaaa5;
 }
-.bio img{
-    margin: 15px;
-    float: left;
+
+/* Styling for links div in header bar on all pages */
+.links{
+    margin-right: 250px;
+    line-height: 52px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.bio p{
-    margin-top: 15px;
-    margin-left: 15px;
+
+/* Styling for each link in header bar on all pages */
+a{
     margin-right: 15px;
-    line-height: 1.6;
+    float: right;
     color: #777777;
 }
+
+/* Styling for footer on all pages */
 footer {
     line-height: 40px;
     padding: 6px;
@@ -65,8 +58,167 @@ footer {
     border-top-color: #4aaaa5;
     border-top-style: solid;
     border-width: 8px;
-    background-color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #666666;
 }
-p2{
-    font-size: 12px;
+
+/* Styling for About Page only */
+article{
+    margin-top: 35px;
+    margin-right: 250px;
+    margin-bottom: 100px;
+    margin-left: 250px;
+    color: #777777;
+    background-color: #ffffff;
+}
+
+/* Styling for image on About Page */
+article img{
+    margin: 15px;
+    float: left;
+}
+
+/* Styling for article paragraphs on About Page */
+article p{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 1.6;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styling for Contact Container on Contact Page */
+.contact-form{
+    margin-top: 35px;
+    margin-right: 250px;
+    margin-bottom: 300px;
+    margin-left: 250px;
+    background-color: #ffffff;  
+}
+
+/* Styling for all input areas on Contact Form */
+.form{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777; 
+
+/* To extend width of all input and text areas to 100% on Contact Page*/
+}
+input, textarea{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styling for Submit Button on Contact Page */
+input[type=submit] {
+    height: 30px;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background-color: #4aaaa5;   
+}
+
+/* Styling for image container on Portfolio Page */
+.portfolio_image_container{
+    position: relative;
+    margin-top: 35px;
+    margin-right: 250px;
+    margin-bottom: 300px;
+    margin-left: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    background-color: #ffffff;
+}
+
+/* Styling for text and image 1 */
+#laptop_pic {
+    margin-left: 15px;
+    padding-top: 25px;
+}
+   
+#laptop_text {
+    position: absolute;
+    top: 195px;
+    left: 15px;
+    height: 40px;
+    width: 240px;
+    padding-top: 18px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5; 
+}
+
+/* Styling for text and image 2 */
+#mobile_pic {
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+#mobile_text {
+    position: absolute;
+    top: 195px;
+    left: 285px;
+    height: 40px;
+    width: 240px;
+    padding-top: 18px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
+/* Styling for text and image 3 */
+#handshake_pic {
+    margin-left: 15px;
+    padding-top: 25px;
+}
+#handshake_text {
+    position: absolute;
+    top: 405px;
+    left: 15px;
+    height: 40px;
+    width: 240px;
+    padding-top: 18px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
+/* Styling for text and image 4 */
+#woman_at_desk_pic {
+    margin-left: 25px;
+}
+
+#desk_text {
+    position: absolute;
+    top: 405px;
+    left: 285px;
+    height: 40px;
+    width: 240px;
+    padding-top: 18px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
+/* Styling for text and image 5 */
+#tablet_pic{
+    padding-top: 25px;
+    margin-left: 15px;
+    padding-bottom: 25px;
+}
+
+#tablet_text {
+    position: absolute;
+    top: 615px;
+    left: 15px;
+    height: 40px;
+    width: 240px;
+    padding-top: 18px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
 }
