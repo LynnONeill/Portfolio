@@ -1,6 +1,41 @@
  /* Styling for all pages */
  * {
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+#wrapper{
+    min-height: 100%;
+    margin-bottom: -50px;
+  }
+
+#main {
+    /* overflow: auto; */
+    padding-bottom: 40px;
+}
+
+/* Styling for footer on all pages */
+.footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    margin-top: -40px;
+    line-height: 40px;
+    height: 40px;
+    padding: 6px;
+    text-align: center;
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+    border-width: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #666666;
+    clear: both;
 }
 
 /* Styling for header bar on all pages */
@@ -48,18 +83,6 @@ a{
     margin-right: 15px;
     float: right;
     color: #777777;
-}
-
-/* Styling for footer on all pages */
-footer {
-    line-height: 40px;
-    padding: 6px;
-    text-align: center;
-    border-top-color: #4aaaa5;
-    border-top-style: solid;
-    border-width: 8px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #666666;
 }
 
 /* Styling for About Page only */
@@ -122,8 +145,10 @@ input[type=submit] {
     background-color: #4aaaa5;   
 }
 
-/* Styling for image container on Portfolio Page */
-.portfolio_image_container{
+/* Below is styling for Portfolio Page .................................................. */
+
+/* Styling for total gallery container on Portfolio Page */
+#portfolio_image_container{
     position: relative;
     margin-top: 35px;
     margin-right: 250px;
@@ -134,91 +159,52 @@ input[type=submit] {
     background-color: #ffffff;
 }
 
-/* Styling for text and image 1 */
-#laptop_pic {
-    margin-left: 15px;
-    padding-top: 25px;
+/* Styling for class of all image text banners */
+.image_text {
+    position: absolute;
+    width: 240px;
+    height: 35px;
+    left: 0px;
+    bottom: 15px;
+    padding-top: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
+/* Styling for image 1 */
+#image_1_container {
+    position: relative;
+    left: 15px;  
+    top: 20px; 
+}
+
+/* Styling for image 2 */
+#image_2_container {
+    position: relative;
+    left: 270px;
+    top: -165px;
 }
    
-#laptop_text {
-    position: absolute;
-    top: 195px;
+/* Styling for image 3 */
+#image_3_container {
+   position: relative;
+   padding-top: 15px;
+   left: 15px;
+   top: -165px;
+}
+
+/* Styling for image 4 */
+#image_4_container {
+    position: relative;
+    top: -350px;
+    left: 270px;
+}
+
+/* Styling for image 5 */
+#image_5_container {
+    position: relative;
     left: 15px;
-    height: 40px;
-    width: 240px;
-    padding-top: 18px;
-    text-align: center;
-    color: #ffffff;
-    background-color: #4aaaa5; 
+    bottom: 335px;
 }
 
-/* Styling for text and image 2 */
-#mobile_pic {
-    padding-left: 25px;
-    padding-top: 25px;
-}
-
-#mobile_text {
-    position: absolute;
-    top: 195px;
-    left: 285px;
-    height: 40px;
-    width: 240px;
-    padding-top: 18px;
-    text-align: center;
-    color: #ffffff;
-    background-color: #4aaaa5;
-}
-
-/* Styling for text and image 3 */
-#handshake_pic {
-    margin-left: 15px;
-    padding-top: 25px;
-}
-#handshake_text {
-    position: absolute;
-    top: 405px;
-    left: 15px;
-    height: 40px;
-    width: 240px;
-    padding-top: 18px;
-    text-align: center;
-    color: #ffffff;
-    background-color: #4aaaa5;
-}
-
-/* Styling for text and image 4 */
-#woman_at_desk_pic {
-    margin-left: 25px;
-}
-
-#desk_text {
-    position: absolute;
-    top: 405px;
-    left: 285px;
-    height: 40px;
-    width: 240px;
-    padding-top: 18px;
-    text-align: center;
-    color: #ffffff;
-    background-color: #4aaaa5;
-}
-
-/* Styling for text and image 5 */
-#tablet_pic{
-    padding-top: 25px;
-    margin-left: 15px;
-    padding-bottom: 25px;
-}
-
-#tablet_text {
-    position: absolute;
-    top: 615px;
-    left: 15px;
-    height: 40px;
-    width: 240px;
-    padding-top: 18px;
-    text-align: center;
-    color: #ffffff;
-    background-color: #4aaaa5;
-}
