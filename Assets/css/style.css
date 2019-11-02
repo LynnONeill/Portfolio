@@ -7,6 +7,7 @@
 html, body{
     height: 100%;
     margin: 0;
+    padding: 0;
 }
 
 #wrapper{
@@ -14,8 +15,8 @@ html, body{
     margin-bottom: -50px;
   }
 
-#main {
-    /* overflow: auto; */
+#main {  
+    overflow: auto; 
     padding-bottom: 40px;
 }
 
@@ -35,7 +36,6 @@ html, body{
     border-width: 8px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #666666;
-    clear: both;
 }
 
 /* Styling for header bar on all pages */
@@ -85,6 +85,8 @@ a{
     color: #777777;
 }
 
+/* Below is Styling for About Page .............................................................*/
+
 /* Styling for About Page only */
 article{
     margin-top: 35px;
@@ -110,6 +112,8 @@ article p{
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Below is Styling for Contact Page...........................................................*/
 
 /* Styling for Contact Container on Contact Page */
 .contact-form{
@@ -152,8 +156,9 @@ input[type=submit] {
     position: relative;
     margin-top: 35px;
     margin-right: 250px;
-    margin-bottom: 300px;
+    margin-bottom: 200px;
     margin-left: 250px;
+    height: 800px;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     background-color: #ffffff;
